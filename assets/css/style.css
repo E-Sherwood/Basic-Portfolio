@@ -13,7 +13,6 @@ header {
      
 }
 .buttons {
-    clear: both;
     float: right;
     padding: 5px;
     font-size: 15px;
@@ -21,16 +20,16 @@ header {
     color: #777777;
     text-decoration: none;
     margin-bottom: 50px;
-    margin-top: -30px;
     border-left: 50px;
+    margin-top: -25px;
 
 }
 h2 {
+    clear: both;
     font-size: 30px;
     color: #4aaaa5;
     text-align: left;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    clear: both;
 }
 img {
     height: 275px;
@@ -48,6 +47,7 @@ div {
 html {
     width: 960px;
     margin: 10px;
+    
 }
 p {
     color: #777777;
@@ -55,13 +55,29 @@ p {
 }
 main-content {
     float: right;
+    margin-left: 45px;
+    background-color: #fff;
 }
 hr {
     width: 960px;
 }
 #porfolioimage {
-    clear: both;
     height: 100px;
     width: 100px;
     padding: 15px;
+}
+footer {
+    clear: both;
+    text-align: center;
+    background-color: #777;
+    color: white;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-top: -1px;
+    height: 50px;
+    padding: 10px;
+}
+#space {
+    background-color: #4aaaa5;
+    height: 25px;
+    margin: 0 auto;
 }
