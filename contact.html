@@ -9,17 +9,29 @@
     <title>Contact Me</title>
 </head>
 <body>
-    <header style=margin-bottom:50px;>
-        Contact Me
-    </header>
-    <hr>
-    <form>
-        <ul><input>Your Name</ul>
-        <ul><input>Email</ul>
-        <ul><textarea rows="5" cols="50"></textarea></ul>Message
-        <button type="submit">Submit</button>
-        <!--submit button doesn't function. javascript needed?-->
+    <header>Elliott Sherwood</header>
+
+    <div>
+        <h2>Contact Me</h2>
+        <hr>
+        <form>
+      
+          <ul><label for="fname">First Name</label>
+          <input type="text" name="firstname"></ul>
+          <ul><label for="lname">Last Name</label>
+          <input type="text" name="lastname"></ul>
+          <ul><label for="subject">Subject</label>
+          <textarea id="subject" name="subject"></textarea></ul>
+          <button type=submit>Submit</button>
+      <!--submit button doesn't function. javascript needed?-->
+        </form>
+        <!--scroll bar again ):-->
+      </div>
     </form>
+    <hr id=space>
+    <footer>
+        Copyright info
+    </footer>
     
 </body>
 </html>
