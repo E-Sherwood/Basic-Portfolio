@@ -19,8 +19,7 @@ header {
     color: #777777;
     text-decoration: none;
     margin-bottom: 50px;
-    border-left: 50px;
-    margin-top: -25px;
+    margin-top: -65px;
 
 }
 h2 {
@@ -41,15 +40,14 @@ div {
     text-align: center;
     background-color: #fff;
     margin-left: 50px;
-    margin-right: 50px;
-    overflow: auto;
+    overflow: hidden;
 }
 aside {
     text-align: center;
     background-color: #fff;
-    margin-left: auto;
-    margin-right: 50px;
-    overflow: auto;
+    margin-left: initial;
+    overflow: hidden;
+    width: 910px;
 }
 html {
     width: 960px;
@@ -103,8 +101,13 @@ article {
 #lefty {
     float: left;
     clear: left;
-}
-#ontheright {
     margin-left: 200px;
-    margin-top: -100px;
+}
+#borderCollie {
+    border: solid;
+    border-width: 3px;
+    border-color: #777;
+    border-bottom: none;
+    border-top: none;
+    border-left: none;
 }
