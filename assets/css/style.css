@@ -28,6 +28,7 @@ h2 {
     color: #4aaaa5;
     text-align: left;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    padding: 5px;
 }
 #self {
     height: 275px;
@@ -98,11 +99,7 @@ article {
     margin: 30px;
     padding: 5px;
 }
-#lefty {
-    float: left;
-    clear: left;
-    margin-left: 200px;
-}
+
 #borderCollie {
     border: solid;
     border-width: 3px;
@@ -110,4 +107,31 @@ article {
     border-bottom: none;
     border-top: none;
     border-left: none;
+}
+.container {
+    position: relative;
+    text-align:center;
+    color:white;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-bottom: 30px;
+    padding: 15px;
+}
+.centered {
+    position: absolute;
+    top: 65%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    background-color: #4aaaa5;
+    padding: 5px;
+    width:260px;
+}
+#subject {
+    width: 750px;
+    height: 650px;
+    padding:10px;
+}
+.namebox {
+    height: 50px;
+    width: 300px;
+    padding: 5px;
 }

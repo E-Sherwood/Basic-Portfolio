@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link href=assets\css\style.css rel="stylesheet">
     <title>Contact Me</title>
 </head>
+
 <body>
     <header style="margin-bottom: 45px">
         Elliott Sherwood
@@ -17,25 +19,35 @@
         <h2>Contact Me</h2>
         <hr>
         <form>
-      
-          <ul><label for="fname">First Name</label>
-          <input type="text" name="firstname"></ul>
-          <br>
-          <ul><label for="lname">Last Name</label>
-          <input type="text" name="lastname"></ul>
-          <br>
-          <ul><label for="subject">Subject</label>
-          <textarea id="subject" name="subject" style=width:250px></textarea></ul>
-          <button type=submit>Submit</button>
-      <!--submit button doesn't function. javascript needed?-->
+
+            <ul>
+                First Name:
+                <br>
+                <input class=namebox type="text" name="firstname">
+            </ul>
+            <br>
+            <ul>
+                Last Name:
+                <br>
+                <input class=namebox type="text" name="lastname">
+            </ul>
+            <br>
+            <ul>
+                Subject:
+                <br>
+                <textarea id="subject" name="subject"></textarea>
+            </ul>
+            <button style="margin-bottom: 20px; margin-right:auto; margin-left:auto; padding:5px" type=submit>Submit</button>
+            <!--submit button doesn't function. javascript needed?-->
         </form>
         <!--no scroll bar either (woot again)-->
-      </div>
+    </div>
     </form>
-    <hr id=space   style=margin-left:50px>
+    <hr id=space style=margin-left:50px>
     <footer style=margin-left:50px>
         Copyright info
     </footer>
-    
+
 </body>
+
 </html>
